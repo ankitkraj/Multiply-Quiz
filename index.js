@@ -1,7 +1,7 @@
 var num1 = Math.floor(Math.random() *10 +1);
 var num2 = Math.floor(Math.random() * 10 +1);
-score.onload = 0;
-let score = JSON.parse(localStorage.getItem("score"));  //parse to chANGE string to number
+let score;
+score = JSON.parse(localStorage.getItem("score"));  //parse to chANGE string to number
 
 if (!score){
     score = 0;
