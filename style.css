@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    background-color: yellow;
+    font-family: cursive;    
+}
+
+
+form{
+    background-color: white;
+    padding : 10px;
+    box-shadow: 10px 10px 10px 10px rgb(0, 0,0,0.3);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.input{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 25px;
+    border: solid 4px green;
+    color: green;
+    text-align: center;
+    padding: 5px;
+  
+}
+
+.input::placeholder{
+    color: green;
+    font-family: cursive;
+
+}
+
+.btn{
+    font-family: cursive;
+    width: 100%;
+    background-color: green;
+    margin: 5px 0;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    cursor: pointer;
+    /* it will show point hand */
+}
+
+.btn:hover{
+    /* background-color: darkgreen; */
+    filter: brightness(0.7);
+}
+
+.score{
+    color: green;
+    text-align: right;
+}
+
